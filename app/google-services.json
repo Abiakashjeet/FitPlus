@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "601609465549",
+    "project_id": "fitplus-cefac",
+    "storage_bucket": "fitplus-cefac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601609465549:android:01b61fafe66ec3affd4384",
+        "android_client_info": {
+          "package_name": "com.example.fitplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601609465549-4uge8rhoarhbslvtn2cen03qtj4t9gc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHDTAeTAhB58yLkOdpXwgEGTM8_oy7s-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601609465549-4uge8rhoarhbslvtn2cen03qtj4t9gc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
