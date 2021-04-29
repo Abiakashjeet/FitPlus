@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FitPlus</string>
+    <string name="api_key">AIzaSyDIF91eVVuZMGOkZBNpe5Fl1d_jpC8ICHE</string>
+    <string name="title_activity_mapgoogle">Map</string>
 </resources>

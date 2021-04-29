@@ -1,15 +1,177 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="FITPLUS"
+            android:textSize="30sp" />
 
 
+        <ImageView
+            android:layout_width="179dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/logo" />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:padding="10dp"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_1"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/cardview_maps_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/maplogo" />
+
+                <TextView
+                    android:id="@+id/cardview_map_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/cardview_maps_iv"
+                    android:layout_centerHorizontal="true"
+                    android:text="Maps" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_2"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:id="@+id/cardview_bmi_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="107dp"
+                    android:layout_marginTop="12dp"
+                    app:srcCompat="@drawable/bmilogo"
+                    />
+
+                <TextView
+                    android:id="@+id/cardview_bmi_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text="BMI"
+                    android:layout_below="@+id/cardview_bmi_iv"
+                    android:layout_centerHorizontal="true"
+                    />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:padding="10dp"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_3"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/cardview_exercise_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/exerciselogo" />
+
+                <TextView
+                    android:id="@+id/cardview_exercise_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/cardview_exercise_iv"
+                    android:layout_centerHorizontal="true"
+                    android:text="Exercise" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_4"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:id="@+id/cardview_events_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="107dp"
+                    android:layout_marginTop="12dp"
+                    app:srcCompat="@drawable/events"
+                    />
+
+                <TextView
+                    android:id="@+id/cardview_events_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text="Events"
+                    android:layout_below="@+id/cardview_events_iv"
+                    android:layout_centerHorizontal="true"
+                    />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
 
 
 </LinearLayout>
+
+</ScrollView>

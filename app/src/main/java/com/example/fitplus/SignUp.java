@@ -80,7 +80,7 @@ public class SignUp extends AppCompatActivity implements AdapterView.OnItemSelec
     }
     public void add_Data(String Name, String Email, String Age, String Gender, String Password)
     {
-        String User_Type="User";
+        String User_Type="1";
         Accounts account = new Accounts(Name,Email,Age,Gender,Password,User_Type);
         dbfirebase.collection("Accounts")
         .add(account)

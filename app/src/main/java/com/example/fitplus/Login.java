@@ -47,6 +47,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
         Login.setOnClickListener(this);
         SignUp.setOnClickListener(this);
+        ForgetPassword.setOnClickListener(this);
 
         mpref = getSharedPreferences("Login_Details",MODE_PRIVATE);
         Intent user_intent = new Intent(this.getApplicationContext(),MainActivity.class);
@@ -88,6 +89,9 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
              Intent intent = new Intent(getApplicationContext(),SignUp.class);
              startActivity(intent);
              break;
+         case R.id.login_forgetpassword_tv:
+             Intent intent1 = new Intent(getApplicationContext(),ForgetPassword.class);
+             startActivity(intent1);
      }
     }
 
