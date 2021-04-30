@@ -1,0 +1,37 @@
+{
+  "categories": [
+    {
+      "name": "FitPlus",
+      "videos": [
+        {
+          "description": "Monday Day 1 Chest Workout",
+          "sources": [
+            "https://www.youtube.com/watch?v=Cse56EbcBSk&list=RDCMUC7t6QJ4u8qF8pI-vibX-BUQ&index=2"
+          ],
+          "subtitle": " ",
+          "thumb": "https://www.google.ca/url?sa=i&url=https%3A%2F%2Fhabitnest.com%2Fblogs%2Fhabit-nest-blog%2Fupper-chest-workout-lower-chest-workout-guide&psig=AOvVaw3F_wyEz27got4O3e146wHl&ust=1619841797022000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKD_iJKLpfACFQAAAAAdAAAAABAZ",
+          "title": "Day 1 Chest Workout"
+        },
+        {
+          "description": "Monday Day 2 Arms Workout",
+          "sources": [
+            "https://www.youtube.com/watch?v=pl6KSCbL5ns&list=RDCMUC7t6QJ4u8qF8pI-vibX-BUQ&index=4"
+          ],
+          "subtitle": " ",
+          "thumb": "https://www.google.ca/url?sa=i&url=https%3A%2F%2Fwww.gymguider.com%2Fthe-best-arms-pump-workout-routine%2F&psig=AOvVaw1Q_rYc17nEcHSUyb0Eqzhf&ust=1619842141511000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPja2LaMpfACFQAAAAAdAAAAABAR",
+          "title": "Day 2 Arms Workout"
+        },
+        
+        {
+          "description": "Monday Day 3 Shoulder Workout",
+          "sources": [
+            "https://www.youtube.com/watch?v=jfu_K_AY0vE&list=RDCMUC7t6QJ4u8qF8pI-vibX-BUQ&index=5"
+          ],
+          "subtitle": " ",
+          "thumb": "https://www.google.ca/url?sa=i&url=https%3A%2F%2Fmanofmany.com%2Flifestyle%2Ffitness%2Fbest-shoulder-exercies-for-men&psig=AOvVaw3my_pI-hNLX08azZug5UVA&ust=1619842329086000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLih-IyNpfACFQAAAAAdAAAAABAP",
+          "title": "Day 3 Shoulder Workout"
+        }
+      ]
+    }
+  ]
+}
