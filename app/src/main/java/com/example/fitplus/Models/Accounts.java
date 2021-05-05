@@ -11,6 +11,7 @@ public class Accounts {
     String User_Type;
 
 
+
     public Accounts(){
     }
 
@@ -22,6 +23,8 @@ public class Accounts {
         Password = password;
         User_Type = user_Type;
     }
+
+
 
     public String getName() {
         return Name;
